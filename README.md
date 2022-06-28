@@ -1,6 +1,6 @@
 # the client side rendered by React.js
 
-## list products on the home page.
+## 1. list products on the home page.
 
 if you see such a warning from browser console `Warning: Each child in a list should have a unique "key" prop.`
 simply add a second param to your map() method, as use index as key
@@ -20,3 +20,7 @@ simply add a second param to your map() method, as use index as key
 ```
 
 ###### review of centering use `justify-content:center`
+
+## 2. react-router-dom
+
+use `react-router-dom` to enable route
