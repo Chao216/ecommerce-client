@@ -27,14 +27,20 @@ use `react-router-dom` to enable route
 
 we will create home route and product routes
 
-2.1 import BrowserRouter and wrap the whole div in App()
+2.1 import BrowserRouter and wrap the whole div in App(), and create routes in app()
 
 ```javascript
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <div>
         <header>
+
+<main>
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+          </Routes>
+          <h1>Featured products</h1>
 ```

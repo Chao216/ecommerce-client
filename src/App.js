@@ -1,5 +1,6 @@
 import { data } from "./data";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
 function App() {
   return (
     <BrowserRouter>
@@ -8,6 +9,9 @@ function App() {
           <a href="/">shoppin</a>
         </header>
         <main>
+          <Routes>
+            <Route path="/" element={<HomeScreen />} />
+          </Routes>
           <h1>Featured products</h1>
           <div className="products">
             {data.map((item, idx) => {
