@@ -18,3 +18,5 @@ simply add a second param to your map() method, as use index as key
   });
 }
 ```
+
+###### review of centering use `justify-content:center`
