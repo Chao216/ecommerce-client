@@ -27,7 +27,7 @@ use `react-router-dom` to enable route
 
 we will create home route and product routes
 
-2.1 import BrowserRouter and wrap the whole div in App(), and create routes in app()
+### 2.1 import BrowserRouter and wrap the whole div in App(), and create routes in app()
 
 ```javascript
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -49,3 +49,7 @@ function App() {
            </BrowserRouter>
   )}
 ```
+
+### 2.2 use <Link to=""> </Link>
+
+this tag to replace <a href=""> </a> will avoid page refresh.
