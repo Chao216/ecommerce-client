@@ -24,3 +24,17 @@ simply add a second param to your map() method, as use index as key
 ## 2. react-router-dom
 
 use `react-router-dom` to enable route
+
+we will create home route and product routes
+
+2.1 import BrowserRouter and wrap the whole div in App()
+
+```javascript
+import { BrowserRouter } from "react-router-dom";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div>
+        <header>
+```
