@@ -36,11 +36,16 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <header>
+
+
 
 <main>
           <Routes>
             <Route path="/" element={<HomeScreen />} />
           </Routes>
           <h1>Featured products</h1>
+
+        </div>
+           </BrowserRouter>
+  )}
 ```
