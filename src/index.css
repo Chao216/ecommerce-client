@@ -24,7 +24,27 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+
+main {
+  padding: 1rem;
+}
 /* change to width of images to 30% or view width */
 img {
-  width: 30vw;
+  width: 20vmax;
+  height: 30vmax;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap; /* if no enough space, will arrange items to new line*/
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #404040;
+  margin: 1rem;
+}
+
+.product-info {
+  padding: 1rem;
 }
