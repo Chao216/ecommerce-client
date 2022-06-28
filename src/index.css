@@ -24,3 +24,7 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+/* change to width of images to 30% or view width */
+img {
+  width: 30vw;
+}
