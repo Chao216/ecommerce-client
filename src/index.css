@@ -24,8 +24,12 @@ header {
   font-weight: bold;
   text-decoration: none;
 } */
-*/ main {
-  padding: 1rem;
+
+.sitecontainer {
+  min-height: 100vh;
+}
+main {
+  flex: 1;
 }
 /* change to width of images to 30% or view width */
 img {

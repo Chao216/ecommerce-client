@@ -10,7 +10,7 @@ import NavbarBrand from "react-bootstrap/esm/NavbarBrand";
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="d-flex flex-column sitecontainer">
         <header>
           <Navbar bg="dark" variant="dark">
             <Container>
@@ -21,12 +21,20 @@ function App() {
           </Navbar>
         </header>
         <main>
-          <Routes>
-            <Route path="/" element={<HomeScreen />} />
-            <Route path="/product/:slug" element={<ProductScreen />} />
-            <Route path="/about/:name" element={<About />} />
-          </Routes>
+          <Container>
+            <Routes>
+              <Route path="/" element={<HomeScreen />} />
+              <Route path="/product/:slug" element={<ProductScreen />} />
+              <Route path="/about/:name" element={<About />} />
+            </Routes>
+          </Container>
         </main>
+        <footer>
+          <p className="text-center">
+            all rights reserved <br />
+            2022
+          </p>
+        </footer>
       </div>
     </BrowserRouter>
   );
