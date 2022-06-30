@@ -12,20 +12,19 @@ code {
     monospace;
 }
 
-/* styling our website header */
+/* styling our website header
 header {
   background-color: #404040;
   padding: 1rem;
 }
 
 /* here for website header text */
-header a {
+/* header a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
-}
-
-main {
+} */
+*/ main {
   padding: 1rem;
 }
 /* change to width of images to 30% or view width */
