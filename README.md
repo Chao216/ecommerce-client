@@ -50,6 +50,6 @@ function App() {
   )}
 ```
 
-### 2.2 use <Link to=""> </Link>
+### 2.2 use `<Link to=""> </Link>`
 
-this tag to replace <a href=""> </a> will avoid page refresh.
+this tag to replace `<a href=""> </a>` will avoid page refresh.
