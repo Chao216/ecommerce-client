@@ -29,12 +29,16 @@ header {
   min-height: 100vh;
 }
 main {
-  flex: 1;
+  flex: 1 1;
 }
+.btn-primary {
+  background-color: #f0c040;
+  color: #404040;
+}
+
 /* change to width of images to 30% or view width */
-img {
-  width: 20vmax;
-  height: 30vmax;
+.product img {
+  width: 100%;
 }
 
 .products {
@@ -50,4 +54,9 @@ img {
 
 .product-info {
   padding: 1rem;
+}
+
+/* make the rating starts golden */
+.rating span {
+  color: #ffc000;
 }
